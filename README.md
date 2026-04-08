@@ -15,14 +15,14 @@ dfds.m, ihr.m, prs.m​ - Optimization algorithm implementations.
 ### Preliminary Tests 
 **Open preliminary.m**
 
-**locate the "PROBLEM SETUP" section and modify the following parameters** for different experimental setups:
-- N: problem dimension
-- MaxEval: function evaluation budget
-- R: the step size distance parameter $R_\epsilon$ in DFDS
-- 
-**Output** The statistics of $f_\text{best}-f^*$ and $\|x_\text{best} - x^*\|$ of all algorithms under the preset parameters will be displayed as output.
+**Locate the "PROBLEM SETUP" section and modify the following parameters** for different experimental setups:
+- N: problem dimension,
+- MaxEval: function evaluation budget.
+- R: the step size distance parameter $R_\epsilon$ in DFDS.
+
+**Output:** The statistics of $f_\text{best}-f^*$ and $\|x_\text{best} - x^*\|$ of all algorithms under the preset parameters will be displayed as output.
   
-**Run preliminary.m​** to obtain results in Table 1-3
+**Run preliminary.m​** to obtain results in Table 1-3.
 
 ### Main Experiments
 **Open main.m**
@@ -32,7 +32,7 @@ dfds.m, ihr.m, prs.m​ - Optimization algorithm implementations.
 - Comment out the code blocks for other functions.
 - Modify N for different problem dimension setups.
 
-**Output** The success rates of all algorithms under the target function and dimension settings will be displayed as output.
+**Output:** The success rates of all algorithms under the target function and dimension settings will be displayed as output.
 
-**Run main.m​** to obtain results in Table 5-8
+**Run main.m​** to obtain results in Table 5-8.
   
