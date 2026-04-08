@@ -20,7 +20,11 @@ dfds.m, ihr.m, prs.m​ - Optimization algorithm implementations.
 - MaxEval: function evaluation budget.
 - R: the step size distance parameter $R_\epsilon$ in DFDS.
 
-**Output:** The statistics of $f_\text{best}-f^*$ and $\|x_\text{best} - x^*\|$ of all algorithms under the preset parameters will be displayed as output.
+**Output:** The statistics of 
+$f_\text{best}-f^* $ 
+and 
+$||x_\text{best} - x^*||$ 
+of all algorithms under the preset parameters will be displayed as output.
   
 **Run preliminary.m​** to obtain results in Table 1-3.
 
