@@ -5,7 +5,7 @@
 % =========================================================
 
 %% Configuration: Ackley  Function
-N = 13;                  %dimension
+N = 2;                  %dimension
 f_str = 'ackley';  % function name
 L = -10; U = 10;  % feasbile domain
 fmin= 0;              %global minimum;
@@ -21,7 +21,7 @@ LowEvalBudget = 125 * 2 ^ N;      % function evaluation budget, level = Low
 %  R_small = (N / 32) ^ 0.5;   R_medium = (N / 8) ^ 0.5;    R_large = (N / 2) ^ 0.5;   
 
 %  %% Configuration:  Goldstein price Function
-%  N = 2;                   %dimension
+%  N = 2;                  
 % f_str= 'goldstein_price'; 
 % L = -2; U = 2;
 % fmin =3; 
@@ -29,7 +29,7 @@ LowEvalBudget = 125 * 2 ^ N;      % function evaluation budget, level = Low
 %  R_small = 0.1;   R_medium = 0.2;    R_large = 0.4;
 
 %  %%  Configuration:  Six-Hump Function
-%  N = 2;                   %dimension
+%  N = 2;                   
 % f_str= 'six_hump';  
 % L = -5; U = 5;
 % fmin = -1.0316; 
