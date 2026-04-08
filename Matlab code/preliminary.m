@@ -1,7 +1,7 @@
 %% ===================== PROBLEM SETUP =====================
 % Modify [N, MaxEval, R]  for different experimental setup
 % =========================================================
-N = 12;                   %problem dimension
+N = 2;                   %problem dimension
 MaxEval = 500 * 2 ^ N;      % function evaluation budget
 R = (N / 32) ^ 0.5;     % Parameter R_\epsilon  small/medium/large
 
